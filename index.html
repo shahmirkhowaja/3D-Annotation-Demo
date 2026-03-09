@@ -1,60 +1,42 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Shahmir Khowaja" />
-    <meta
-      name="description"
-      content="A high-performance 3D model annotation editor for GLB files"
-    />
-    <title>GLB Annotation Pro - by Shahmir Khowaja</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLB Annotation Pro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         darkMode: 'class',
         theme: {
-          extend: {},
-        },
-      };
-    </script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <style>
-      body {
-        margin: 0;
-        overflow: hidden;
-        font-family:
-          -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-          Arial, sans-serif;
-      }
-      #root {
-        height: 100vh;
-        width: 100vw;
-      }
-      canvas {
-        touch-action: none;
-      }
-    </style>
-
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://esm.sh/three@^0.182.0",
-          "react/": "https://esm.sh/react@^19.2.3/",
-          "react": "https://esm.sh/react@^19.2.3",
-          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-          "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
-          "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0"
+          extend: {}
         }
       }
     </script>
-    <script type="module" crossorigin src="/3D-Annotation-Demo/assets/index-DuHjXsKk.js"></script>
-    <link rel="stylesheet" crossorigin href="/3D-Annotation-Demo/assets/index-C4XmwKhf.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { margin: 0; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        #root { height: 100vh; width: 100vw; }
+        canvas { touch-action: none; }
+    </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://esm.sh/three@^0.182.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-BPTbxxBc.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C4XmwKhf.css">
+</head>
+<body>
     <div id="root"></div>
-  </body>
+</body>
 </html>
